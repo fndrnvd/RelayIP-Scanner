@@ -34,7 +34,7 @@ cd cloudflare-relay-scanner
 pip install -r requirements.txt
 python scanner.py
 ```
-📋 Requirements
+##📋 Requirements
 
     Python 3.8+
 
@@ -44,13 +44,7 @@ python scanner.py
 
     (Optional) aiohttp-socks if you use a SOCKS5 proxy.
 
-Install all with:
-bash
-
-pip install aiohttp rich aiohttp-socks
-
-🛠️ Usage
-bash
+##🛠️ Usage
 
 python scanner.py \
   --proxy socks5://127.0.0.1:10808 \
@@ -60,7 +54,7 @@ python scanner.py \
   --output-dir MyResults \
   --concurrency 200
 
-Key Arguments
+##Key Arguments
 Flag	Description	Default
 -p, --proxy	Proxy for latency testing (http or socks5)	http://127.0.0.1:10809
 -t, --timeout	Connection timeout (seconds)	3.0
